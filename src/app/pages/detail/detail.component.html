@@ -1,0 +1,18 @@
+<div class="container d-flex justify-content-center align-items-center">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4 character_img">
+        <img src="{{oneCharacter.image}}" alt="{{oneCharacter.name}}">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{oneCharacter.name }}</h5>
+          <p class="card-text">Origin: <strong>{{oneCharacter.origin.name}}</strong></p>
+          <p class="card-text">Status: <strong>{{oneCharacter.status}}</strong></p>
+          <p class="card-text">Species: <strong>{{oneCharacter.species}}</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" [routerLink]="['/']" class="btn btn-primary">Regresar</button>
+</div>

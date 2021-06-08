@@ -1,0 +1,16 @@
+<header>
+    <app-header></app-header>
+</header>
+<section class="container">
+    <div class="row">
+        <div *ngFor="let item of allCharacters" class="col-md-4 col-sm-6">
+            <div class="card" style="width: 18rem;">
+                <img [src]="item.image" class="card-img-top" [alt]="item.name">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.name}}</h5>
+                  <a [routerLink]="['/detail', item.id]" class="btn btn-primary">Detalles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
