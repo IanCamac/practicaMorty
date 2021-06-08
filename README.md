@@ -1,6 +1,8 @@
 # Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+Link demo: https://iancode-ricktest.netlify.app/home
+Instalar y habilitar extensions de cors: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es
 
 ## Development server
 
